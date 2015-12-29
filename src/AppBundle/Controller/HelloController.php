@@ -12,8 +12,8 @@ class HelloController extends Controller {
    */
 public function helloAction ($name)
   {
-    //return new Response ('Bonjour '.$name);
-    return $this->Redirect('https:\\www.google.com');
+    return new Response ('Bonjour '.$name);
+    //return $this->Redirect('https:\\www.google.com');
   }
 }
  ?>
